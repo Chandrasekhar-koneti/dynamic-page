@@ -1,0 +1,42 @@
+/* .myDiv {
+    border: 5px outset red;
+    background-color: lightblue;    
+  } */
+
+ body{
+    background-color: blanchedalmond;
+ }
+
+  #mar{
+    /* display: flex;
+    justify-content: start; */
+    background-color: rgba(232, 233, 225, 0.692);
+    margin: 50px 400px 0px 400px;
+    border:2px dotted #10a047;
+    padding:20px 20px 20px 20px ;
+
+  }
+  #trail {
+    text-align: center;
+    /* padding: 40px 10px 10px 100px; */
+    color: red;
+  }
+  
+  #expense{
+    color: green;
+    text-align: center;
+  }
+  
+  #button{
+    text-align: center;
+  
+  }
+  .pad{
+    padding: 0px 0px 0px 40px;
+  }
+  .pad1{
+    padding: 0px 10px 0px 0px ;
+  }
+
+
+  
