@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+   
+   <link rel="stylesheet" href="expe.css">
+
+    <title>Expense Tracker</title>
+
+    <body>
+      <div id="mar">
+      <header >
+        <h1 id="trail">Enter Details</h1>
+        </header>
+      <form id="my-form">
+        <div id="expense">
+      <label><b>Choose Expense Amount : </b></label>
+      <input
+        type="text"
+        id="amount"
+        name="amount"
+        size="15"
+        placeholder="Enter Amount"
+        required
+      />
+        </div>
+        <div id="expense" class="pad">
+      <label> <b>Choose Description :</b> </label>
+      <input
+        type="text"
+        id="description"
+        name="description"
+        size="15"
+        placeholder="Enter Description"
+        required
+      />
+        </div>
+        <div id="expense" class="pad1">
+      <label><b>Choose a category : </b></label>
+      <select
+        name="category"
+        id="category"
+        size="1"
+        required
+      >
+        <option>Movie</option>
+        <option>Food</option>
+        <option>Electricity</option>
+        <option>Travel</option>
+        <option>Fuel</option>
+      </select>
+        </div>
+        <div id="button">
+      <button id="button" class="bg-primary"><b>Add Expense</b></button>
+        </div>
+    </form>
+    </div>
+    <ul id="listOfExpenses"></ul>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.1/axios.js"></script>
+
+    <script src="expe.js" ></script>
+    </body>
+    </html>
+
+
+
+
+
+
+
+
+
+
+
